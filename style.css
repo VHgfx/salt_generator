@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+#salt {
+    font-size: 1.2em;
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #a71300;
+    color: white;
+    font-size: 1em;
+}
+button:hover {
+    background-color: #d73232;
+}
+.copy-btn {
+    background-color: #008CBA;
+}
+.copy-btn:hover {
+    background-color: #007bb5;
+}
