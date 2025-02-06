@@ -13,7 +13,7 @@ $salt = bin2hex(random_bytes(16));
 <body>
 
 <div class="container">
-    <h2>Salter 🔐</h2>
+    <h2>🧂 Salter 🧂</h2>
     <div id="salt"><?php echo $salt; ?></div>
     <button onclick="refreshSalt()">🔄 Générer un nouveau Salt</button>
     <button class="copy-btn" onclick="copySalt()">📋 Copier dans le presse-papier</button>
